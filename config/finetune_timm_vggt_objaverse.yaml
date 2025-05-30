@@ -1,0 +1,17 @@
+model: timm
+backbone: ViT-B-16
+dataset: objaverse
+matcher: vggt
+
+hydra:
+  run:
+    dir: outputs/${model}/${matcher}/${backbone}/${dataset}
+
+  sweep:
+    dir: checkpoints
+    subdir: ${backbone}
+
+evaluation_methods:
+  - semantic_transfer
+  - tracking
+  - pose

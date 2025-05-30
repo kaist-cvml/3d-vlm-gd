@@ -1,0 +1,22 @@
+.git
+
+__pycache__
+*.pyc
+
+# croco compiled files
+*.so 
+# dust3r/croco/models/curope/curope.cpython-310-x86_64-linux-gnu.so
+
+!data/
+data/*
+!data/10k.txt
+!data/obj_poses.npy
+!data/tapvid_davis_data_strided.pkl
+!data/test_pairs_pf_different_views.csv
+!data/test_pairs_pf_same_views.csv
+
+outputs/
+outputs/*
+
+evaluation_output/
+evaluation_output/*
