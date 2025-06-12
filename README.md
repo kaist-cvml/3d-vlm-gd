@@ -14,6 +14,13 @@
 </h5>
 
 
+<h4 align="center">
+
+[![arXiv](https://img.shields.io/badge/arXiv-2506.09883-b31b1b.svg)](https://arxiv.org/abs/2506.09883)
+
+</h4>
+
+
 <div align="center">
     <img src="assets/3dvlm_teaser.png" alt="drawing" width="90%"/>
 </div>
@@ -41,7 +48,7 @@ By distilling (1) sparse correspondences, (2) relative depth relations, and (3) 
 
 ## Updates
 
-- [x] [TBA] 📄 We will update the paper and the official codes.
+- [x] [2025.06.12] 📄 Our paper is now available! You can find the paper [here](https://arxiv.org/abs/2506.09883).
 
 
 <br/>
